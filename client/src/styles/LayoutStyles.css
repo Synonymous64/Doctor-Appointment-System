@@ -1,0 +1,60 @@
+.main {
+  padding: 10px;
+  height: 100vh;
+}
+
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  min-height: 100%;
+  width: 300px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  box-shadow: 0 0 2px grey;
+  margin-right: 20px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 10vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: whitesmoke;
+}
+
+.body {
+  height: 65vh;
+  margin-bottom: 20px;
+  box-shadow: 0 0 2px grey;
+  background-color: whitesmoke;
+}
+
+.logo h6 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+.menu {
+  margin-top: 50px;
+}
+
+.menu-item {
+  margin-top: 30px;
+}
+
+.menu-item a {
+  color: rgb(173, 45, 45);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.menu-item i {
+  font-size: 1.2rem;
+  margin: 0 15px;
+}
