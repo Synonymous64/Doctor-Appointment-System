@@ -26,7 +26,7 @@ export default function ProtectedRoutes({ children }) {
             if (res.data.success) {
                 dispatch(setUser(res.data.data));
             } else {
-                return <Navigate to="/login" />
+                return <Navigate to="/login" />;
             }
 
         } catch (error) {
