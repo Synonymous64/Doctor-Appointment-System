@@ -58,3 +58,9 @@
   font-size: 1.2rem;
   margin: 0 15px;
 }
+
+.active {
+  background-color: silver;
+  color: antiquewhite;
+  padding: 10px;
+}
