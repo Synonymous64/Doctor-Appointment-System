@@ -26,11 +26,13 @@ export default function ProtectedRoutes({ children }) {
             if (res.data.success) {
                 dispatch(setUser(res.data.data));
             } else {
+                localStorage.clear();
                 return <Navigate to="/login" />;
             }
 
         } catch (error) {
             dispatch(hideLoading());
+            localStorage.clear();
             console.log(error);
         }
     };
